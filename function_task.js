@@ -80,7 +80,7 @@ function calculateDogAge(puppyAge) {
   //Ex#5
 // what is the error:
 function double(cat) {
-    return 2 * cat;
+    return 2 * x;
     }
     
     function double(N7) {
@@ -327,6 +327,33 @@ function scoreInUniversity(x) {
      else if (x >= 0 && x <= 49)  {console.log("youre grade is: F")} 
      }
      scoreInUniversity(99)
+
+
+            /************************  Switch    *********************************/
+
+            function scoreInUniversity2(x2) {
+              switch (true) {
+                case x2 >= 95 && x2 <= 100  : console.log("youre grade is: A") ;
+                break ;
+                case x2 >= 85 && x2 <= 94 : console.log("youre grade is: A") ; 
+                break ;
+                case x2 >= 70 && x2 <= 84 : console.log("youre grade is: C"); 
+                break ;
+                case x2 >= 50 && x2 <= 69 :console.log("youre grade is: D") ;  
+                break ;
+                case x2 >= 0  && x2 <= 49 :  console.log("youre grade is: F" );
+                break ;
+                default:
+                  console.log("are you sure you enterd the right nimber??!") 
+              }
+            }
+              scoreInUniversity2(59)
+
+
+      
+
+
+
 
 
  //Ex#23
